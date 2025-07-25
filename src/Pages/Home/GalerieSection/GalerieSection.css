@@ -1,0 +1,10 @@
+.main-project {
+  flex-grow: 1;
+}
+@media (max-width: 1050px) {
+  .projects-title {
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+  }
+}

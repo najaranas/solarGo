@@ -1,0 +1,32 @@
+.reviews-section {
+  background-position: center;
+  background-size: cover;
+  padding: 130px 100px 30px 100px;
+  margin-top: 0px;
+}
+
+.reviews-section h3 {
+  font-size: 3rem;
+}
+
+.reviews-section .content {
+  max-width: 50%;
+}
+
+@media (max-width: 1200px) {
+  .reviews-section {
+    padding: 100px 0px 0px 0px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .reviews-section .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .reviews-section .content {
+    align-items: center;
+    max-width: 100%;
+  }
+}

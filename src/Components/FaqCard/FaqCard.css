@@ -1,0 +1,61 @@
+.faq-card-item {
+  cursor: pointer;
+  border: 2px solid var(--title-color);
+  padding: 20px;
+  border-radius: var(--raduis-2);
+}
+
+.faq-card-item .plus-icon {
+  position: relative;
+  background-color: var(--title-color);
+  min-width: 40px;
+  min-height: 40px;
+  border-radius: 50%;
+}
+
+.faq-card-item .plus-icon::after {
+  position: absolute;
+  content: "";
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 3px;
+  width: 40%;
+  background-color: var(--bs-white);
+  border-radius: 10px;
+}
+
+.faq-card-item .plus-icon::before {
+  position: absolute;
+  content: "";
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(90deg);
+  height: 3px;
+  width: 40%;
+  background-color: var(--bs-white);
+  border-radius: 10px;
+  transition: var(--trasition-1);
+}
+
+.faq-card-item.active .plus-icon::before {
+  transform: translate(-50%, -50%);
+}
+
+.faq-card-item {
+  overflow: hidden;
+}
+
+.faq-card-item .main-text {
+  /* margin-top: 10px; */
+  height: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: var(--trasition-1);
+}
+
+.faq-card-item.active .main-text {
+  margin-top: 10px;
+  opacity: 1;
+  visibility: visible;
+}

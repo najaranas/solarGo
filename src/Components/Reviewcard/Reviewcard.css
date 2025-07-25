@@ -1,0 +1,21 @@
+.review-item {
+  background-color: var(--light-gray);
+  color: var(--text-color);
+  padding: 90px 30px 30px 30px;
+  border-radius: var(--raduis-2);
+  position: relative;
+}
+
+.review-item p {
+  color: var(--dark-gray);
+  text-align: center;
+}
+
+.review-item .review-img {
+  position: absolute;
+  top: 0;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  transform: translateY(-50%);
+}

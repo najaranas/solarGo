@@ -1,0 +1,115 @@
+footer {
+  background: var(--title-color);
+  color: var(--bs-white);
+}
+
+footer .footer-content {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  padding-block: 50px;
+}
+
+footer .footer-content a {
+  transition: var(--trasition-1);
+  border-bottom: none !important;
+}
+
+footer .nav-box {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+footer .fa-brands {
+  color: var(--accent-color);
+  min-width: 18px;
+}
+
+footer .footer-content .line-hover:hover {
+  color: var(--accent-color);
+}
+
+footer .footer-content .footer-nav .sub-links .link {
+  max-width: 200px;
+}
+
+footer .footer-content .footer-nav .sub-links a {
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+footer .footer-content .location {
+  max-width: 500px;
+}
+
+footer .footer-terms {
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 30px;
+  padding-block: 30px;
+}
+
+footer .footer-terms .powred-by .hover-text {
+  transition: var(--trasition-1);
+}
+footer .footer-terms .powred-by .hover-text:hover {
+  color: blue;
+}
+
+footer .footer-terms b {
+  color: var(--accent-color);
+  margin-inline: 7px;
+}
+
+footer .footer-terms .social-actions a:hover {
+  border: 1px solid var(--accent-color);
+  color: var(--title-color);
+  background-color: var(--accent-color);
+}
+
+footer .footer-actions {
+  padding-inline: 30px;
+  padding-block: 30px;
+  background-color: var(--text-color);
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 997px) {
+  footer .footer-content {
+    text-align: center;
+    flex-direction: column;
+    padding-top: 50px;
+  }
+
+  footer .footer-logo .logo {
+    justify-content: center;
+  }
+
+  footer .footer-logo .logo h2 {
+    font-size: 3rem;
+  }
+
+  footer .footer-content .footer-nav {
+    display: none;
+  }
+
+  footer .footer-terms,
+  footer .footer-actions {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+  }
+
+  footer .footer-actions {
+    padding-inline: 50px;
+  }
+}
+@media (max-width: 559px) {
+  footer .footer-logo .logo h2 {
+    font-size: 2.2rem;
+  }
+}

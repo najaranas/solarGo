@@ -1,0 +1,23 @@
+.home .service-section {
+  background: linear-gradient(to bottom, var(--bs-white) 10%, #000000e5);
+  padding-bottom: 50px;
+}
+
+.home .service-section h3 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.home .service-section .service-box .service-item {
+  min-width: calc(100% / 2 - 30px);
+}
+
+@media (max-width: 1050px) {
+  .home .service-section .service-box {
+    flex-direction: column;
+  }
+
+  .home .service-section .service-box .service-item {
+    min-width: 100%;
+  }
+}

@@ -1,0 +1,19 @@
+.faq-section .faq-box {
+  max-width: 60%;
+}
+
+@media (max-width: 1050px) {
+  .faq-section .container {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .faq-section .faq-title {
+    align-items: center;
+    text-align: center;
+  }
+
+  .faq-section .faq-box {
+    max-width: 100%;
+  }
+}

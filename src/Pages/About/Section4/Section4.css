@@ -1,0 +1,6 @@
+@media (max-width: 997px) {
+  .about .projects .about-section-4-top {
+    flex-direction: column;
+    background-color: red;
+  }
+}

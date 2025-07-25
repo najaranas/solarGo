@@ -1,0 +1,30 @@
+.service-type-section-2 {
+  color: var(--text-color);
+}
+
+.service-type-section-2 p {
+  color: var(--dark-gray);
+}
+
+.service-type-section-2 img {
+  min-width: 40%;
+  border-radius: var(--raduis-2);
+  max-height: 350px;
+  min-height: 350px;
+  object-fit: cover;
+}
+
+@media (max-width: 1050px) {
+  .service-type-section-2 .container {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+  }
+
+  .service-type-section-2 .container .content {
+    align-items: center;
+  }
+  .service-type-section-2 .container img {
+    width: 80%;
+  }
+}

@@ -1,0 +1,27 @@
+.about-section-1 {
+  color: var(--text-color);
+}
+
+.about-section-1 p {
+  color: var(--dark-gray);
+}
+
+.about-section-1 img {
+  width: 40%;
+  border-radius: var(--raduis-2);
+}
+
+@media (max-width: 1050px) {
+  .about-section-1 .container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .about-section-1 .container .content {
+    align-items: center;
+  }
+  .about-section-1 .container img {
+    width: 80%;
+  }
+}

@@ -1,0 +1,30 @@
+.services-section-4 {
+  color: var(--bs-white);
+  background-color: var(--text-color);
+  padding-block: 70px;
+  border-radius: 0 0 var(--raduis-5) var(--raduis-5);
+}
+
+.services-section-4 p {
+  color: var(--light-gray);
+}
+
+.services-section-4 img {
+  width: 40%;
+  border-radius: var(--raduis-2);
+}
+
+@media (max-width: 1050px) {
+  .services-section-4 .container {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+  }
+
+  .services-section-4 .container .content {
+    align-items: center;
+  }
+  .services-section-4 .container img {
+    width: 80%;
+  }
+}

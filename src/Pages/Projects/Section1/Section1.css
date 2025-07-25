@@ -1,0 +1,27 @@
+.projets-section-1 .filter-type {
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.projets-section-1 .filter-type-item {
+  padding: 10px 20px;
+  border-radius: var(--raduis-5);
+  background-color: var(--text-color);
+  color: var(--bs-white);
+  box-shadow: var(--shadow-1);
+  flex-grow: 1;
+  text-align: center;
+  cursor: pointer;
+  transition: var(--trasition-1);
+  font-weight: 500;
+}
+
+.projets-section-1 .filter-type-item.active {
+  color: var(--text-color);
+  background-color: var(--accent-color);
+}
+
+.projets-section-1 .filter-type-item span {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}

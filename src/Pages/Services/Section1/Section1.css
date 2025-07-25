@@ -1,0 +1,11 @@
+* .services-section-1 .container {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  padding-block: 50px;
+}
+
+.services-section-1 .container .service-card-item {
+  min-height: 400px;
+  max-width: calc(100% / 2 - 15px);
+}

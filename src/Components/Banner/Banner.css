@@ -1,0 +1,32 @@
+.banner {
+  position: relative;
+  background: linear-gradient(to right, #000000cf, #00000027),
+    url("/public/assets/photo-1474398777522-cabeb42e8132.avif");
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+  padding-block: 120px;
+  z-index: 2;
+  margin-top: 50px;
+}
+
+.banner .content {
+  align-items: start;
+}
+
+.banner .content h3 {
+  font-size: 50px;
+  display: flex;
+  color: var(--bs-white);
+  flex-direction: column;
+}
+
+.banner .primary-btn {
+  font-size: 1.3rem;
+}
+
+@media (max-width: 799px) {
+  .banner .content h3 {
+    font-size: 40px;
+  }
+}
