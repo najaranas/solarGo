@@ -37,7 +37,7 @@ A modern, responsive web application for showcasing and managing solar energy pr
 
    ```bash
    git clone https://github.com/najaranas/solarGo
-   cd solar-website-v2
+   cd solarGo
    ```
 
 2. **Install dependencies**
