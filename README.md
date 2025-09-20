@@ -4,11 +4,9 @@ A modern, responsive web application for showcasing and managing solar energy pr
 
 > ⚠️ **Warning:** This project is from my early React learning stage. Code and structure may not reflect best practices.
 
-> ⚡ **Note:** This project demonstrates a scalable, modular approach to building a solar project portfolio and management platform.
-
 ## 🌐 Live Demo
 
-**[Solar Projects Live Demo](https://najar-solarv2.netlify.app/)**
+**[Solar Projects Live Demo](https://najar-solargo.netlify.app/)**
 
 ## ✨ Features
 
@@ -38,7 +36,7 @@ A modern, responsive web application for showcasing and managing solar energy pr
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/najaranas/solar-website-v2
+   git clone https://github.com/najaranas/solarGo
    cd solar-website-v2
    ```
 
